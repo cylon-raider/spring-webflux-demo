@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Vite
+dist/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env.local
+.env.*.local
+
+# React Router (if it's a generated build folder)
+.react-router/
+
+# Editor
+.vscode/

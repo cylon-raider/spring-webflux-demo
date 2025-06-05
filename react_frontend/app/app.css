@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+
+@media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+    background-color: hsla(279, 79%, 45%, 0.607); /* Tailwind's gray-950 */
+  }
+}
