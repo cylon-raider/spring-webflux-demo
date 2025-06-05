@@ -1,0 +1,14 @@
+# Global safety net
+# This file is used to ignore files that should not be committed to the repository.
+
+# Editor config
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node + Maven
+**/node_modules/
+**/target/
